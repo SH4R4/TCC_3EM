@@ -27,6 +27,10 @@ if ($requestMethod === "POST" && isset($_GET["endpoint"])) {
 
     if ($endpoint === "cadastro") {
         if (!empty($data["nome"]) && !empty($data["email"]) && !empty($data["senha"])) {
+            if (strlen($data["senha"]) < 6) {
+                enviarErro(400, "A senha deve ter pelo menos 6 caracteres.");
+            }
+
             $stmt = $pdo->prepare("SELECT email FROM usuarios WHERE email = :email");
             $stmt->bindParam(":email", $data["email"]);
             $stmt->execute();

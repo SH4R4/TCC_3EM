@@ -44,6 +44,11 @@ export default function SignUp() {
       return;
     }
 
+    if (senha.length < 6) {
+      setErrorMessage('A senha deve ter pelo menos 6 caracteres');
+      return;
+    }
+
     try {
       const response = await api.noAuth.post('/auth.php?endpoint=cadastro', {
         nome,
