@@ -6,10 +6,6 @@
 
 Repositório do projeto de TCC - Aplicativo mobile de gerenciamento nutricional com suporte a dietas personalizadas e controle de distúrbios alimentares.
 
-## 💻 Tecnologias Utilizadas
-
-<img src = "img/expo.svg" height = "40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height = "40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height = "40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" height = "40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height = "40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" height = "40"/>
-                   
 ### 📋 Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado:
